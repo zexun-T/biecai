@@ -28,7 +28,7 @@ function move() {
         if (len == 6) {
             for (i = 0; i < 4; i++) {
                 if (main.childNodes[len - 1].childNodes[i].classList.contains('i')) {
-                    alert('300分有美女图哦！加油！你的得分为：' + num);
+                    alert('加油！你的得分为：' + num);
                     clearInterval(timer);
                     flag = false;
                 }
@@ -70,7 +70,7 @@ function knock() {
                 num++
                 document.getElementsByClassName('num')[0].innerHTML = '你的得分：' + num;
             } else {
-                alert('300分有美女图哦！加油！你的得分为：' + num);
+                alert('加油！你的得分为：' + num);
                 clearInterval(timer);
                 flag = false;
             }
